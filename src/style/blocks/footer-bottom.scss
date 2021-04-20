@@ -1,0 +1,32 @@
+.footer__bottom-section {
+  border-top: 1px solid rgba(31, 32, 65, 0.1);
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 0;
+    color: rgba(31, 32, 65, 0.75);
+    font-family: 'Montserrat-Medium';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+  }
+
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.footer__social-item {
+  margin-left: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
